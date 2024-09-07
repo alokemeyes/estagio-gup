@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\Christiano Tenório\Documents\CURSO LÓGICA DE PROGRAMAÇÃO - Arquivos\Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1313604557.index
+1865797976.index
+3198938575.index

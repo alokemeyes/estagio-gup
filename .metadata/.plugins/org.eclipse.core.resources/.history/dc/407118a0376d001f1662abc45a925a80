@@ -1,0 +1,32 @@
+package desafios;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+	
+	private static void fibonacci(int numero) {
+		Boolean verificado;
+		if (numero == (numero - 1) + (numero - 2)) {
+			verificado = true;
+		}else {
+			verificado = false;
+		}
+		
+		if(verificado == true) {
+			System.out.println("O numero " + numero + " pertence a sequencia de Fibonacci!");
+		}else {
+			System.out.println("O numero " + numero + " nao pertence a sequencia de Fibonacci!");
+		}
+	}
+
+	public static void main(String[] args) {
+		int numero = 0;
+		Scanner x = new Scanner(System.in);
+		
+		System.out.println("Digite um numero, para verificar se ele pertence a sequencia de Fibonacci: ");
+		numero = x.nextInt();
+		
+		fibonacci(numero);
+	}
+
+}

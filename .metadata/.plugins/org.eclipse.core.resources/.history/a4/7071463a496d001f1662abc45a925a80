@@ -1,0 +1,17 @@
+package desafios;
+
+public class Segunda_questao {
+
+	public static void main(String[] args) {
+		String frase = "paralelepipedo";
+		int i, contador = 0;
+		for(i = 0; i < frase.length(); i++) {
+			if((frase == "a") || (frase == "A")) {
+				contador++;
+			}
+		}
+		
+		System.out.println("A letra a/A, aparece " + contador + " vezes nessa frase.");
+	}
+
+}
